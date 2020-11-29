@@ -1,0 +1,26 @@
+{
+  "name": "apigateway-crud-lambda-dynamodb",
+  "version": "1.0.0",
+  "description": "Creat an API Gateway with CRUD operations on a DynamoDB Table implemented with Lambda functions (Node)",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "author": {
+    "name": "Alberto Capellini <alberto.capellini@gmail.com>"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^14.14.10",
+    "typescript": "~3.7.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "*",
+    "@aws-cdk/aws-dynamodb": "*",
+    "@aws-cdk/aws-lambda": "*",
+    "@aws-cdk/core": "*",
+    "uuid": "^3.3.2"
+  }
+}
